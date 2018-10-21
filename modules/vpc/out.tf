@@ -7,7 +7,7 @@ output "vpc-arn" {
 }
 
 
-output "subnets-id" {
+output "subnet-ids" {
   value = "${aws_subnet.subnets.*.id}"
 }
 
